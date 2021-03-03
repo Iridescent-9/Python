@@ -91,3 +91,10 @@
     使用`pip install XXX -i https://pypi.tuna.tsinghua.edu.cn/simple`进行镜像加速安装
 
     使用`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`从*requirements.txt*中批量安装依赖包
+
+3. 更新依赖包
+
+    使用`pip list --outdated`获取更新列表
+
+    再使用`pip install --upgrade XXX -i https://pypi.tuna.tsinghua.edu.cn/simple`
+    进行镜像加速更新依赖包
